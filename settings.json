@@ -1,0 +1,123 @@
+{
+  "cli_default_open_behavior": "new_window",
+
+  "autosave": "off",
+  "disable_ai": true,
+
+  "vim_mode": true,
+
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+
+  "proxy": "",
+
+  "file_scan_exclusions": [
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings"
+  ],
+
+  "project_panel": {
+    "hide_hidden": false,
+    "hide_gitignore": false
+  },
+
+  "lsp": {
+    "vtsls": {
+      "enable_lsp_tasks": true,
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      }
+    },
+
+    "yaml-language-server": {
+      "settings": {
+        "yaml": {
+          "validate": true,
+
+          "customTags": [
+            "!Ref scalar",
+            "!Sub scalar",
+            "!GetAtt scalar",
+            "!GetAZs scalar",
+            "!Join sequence",
+            "!Select sequence",
+            "!Split sequence",
+            "!ImportValue scalar",
+            "!FindInMap sequence",
+            "!If sequence",
+            "!Equals sequence",
+            "!And sequence",
+            "!Or sequence",
+            "!Not sequence",
+            "!Base64 scalar",
+            "!Condition scalar",
+            "!Cidr sequence",
+            "!Transform mapping"
+          ],
+
+          "schemas": {
+            "https://raw.githubusercontent.com/awslabs/goformation/master/schema/cloudformation.schema.json": [
+              "**/template.yaml",
+              "**/template.yml",
+              "**/*.cf.yaml",
+              "**/*.cf.yml",
+              "**/vpc.yaml",
+              "**/security-groups.yaml",
+              "**/iam.yaml",
+              "**/waf.yaml",
+              "**/github-oidc.yaml"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Material Icon Theme",
+    "dark": "Material Icon Theme"
+  },
+
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Fleet Dark"
+  },
+
+  "theme_overrides": {
+    "One Dark": {
+      "editor.background": "#282c34",
+
+      "syntax": {
+        "comment": {
+          "font_style": "italic"
+        },
+
+        "comment.doc": {
+          "font_style": "italic"
+        }
+      },
+
+      "accents": [
+        "#e06c75",
+        "#e5c07b",
+        "#98c379",
+        "#61afef",
+        "#c678dd",
+        "#56b6c2"
+      ]
+    }
+  }
+}
