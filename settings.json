@@ -12,6 +12,7 @@
   "proxy": "",
 
   "file_scan_exclusions": [
+    "**/.git",
     "**/.DS_Store",
     "**/Thumbs.db",
     "**/.classpath",
