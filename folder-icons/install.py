@@ -29,5 +29,6 @@ icons = target / "icons"
 if not icons.exists():
     icons.symlink_to(base / "icons", target_is_directory=True)
 shutil.copytree(source / "aws-icons", target / "aws-icons", dirs_exist_ok=True)
+shutil.copytree(source / "tool-icons", target / "tool-icons", dirs_exist_ok=True)
 (target / theme_path).write_text(json.dumps(document, separators=(",", ":")) + "\n")
 shutil.copyfile(source / "extension.toml", target / "extension.toml")

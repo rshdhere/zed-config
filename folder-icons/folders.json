@@ -79,6 +79,10 @@
     "collapsed": "./icons/folder-archive.svg",
     "expanded": "./icons/folder-archive-open.svg"
   },
+  "vault": {
+    "collapsed": "./tool-icons/vault.svg",
+    "expanded": "./tool-icons/vault.svg"
+  },
   "vpc": {
     "collapsed": "./aws-icons/vpc.svg",
     "expanded": "./aws-icons/vpc.svg"
