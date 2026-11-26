@@ -21,7 +21,7 @@ The relevant settings are `file_scan_exclusions` and the two visibility options 
 
 ## Folder icons
 
-On Linux, install Material Icon Theme from Zed’s extensions, then run the following from this checkout and reload Zed. The dark theme uses custom icons for workflows, environments, infrastructure categories and 14 AWS service folders.
+On Linux, install Material Icon Theme from Zed’s extensions, then run the following from this checkout and reload Zed. The dark theme uses custom icons for workflows, environments, infrastructure categories and 15 AWS service folders.
 
 ```sh
 python3 folder-icons/install.py

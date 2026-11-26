@@ -39,6 +39,10 @@
     "collapsed": "./aws-icons/elasticache.svg",
     "expanded": "./aws-icons/elasticache.svg"
   },
+  "iam": {
+    "collapsed": "./aws-icons/iam.svg",
+    "expanded": "./aws-icons/iam.svg"
+  },
   "lambda": {
     "collapsed": "./aws-icons/lambda.svg",
     "expanded": "./aws-icons/lambda.svg"
