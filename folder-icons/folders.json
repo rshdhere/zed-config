@@ -1,0 +1,86 @@
+{
+  "acm": {
+    "collapsed": "./aws-icons/acm.svg",
+    "expanded": "./aws-icons/acm.svg"
+  },
+  "alb": {
+    "collapsed": "./aws-icons/alb.svg",
+    "expanded": "./aws-icons/alb.svg"
+  },
+  "aurora-postgresql": {
+    "collapsed": "./aws-icons/aurora-postgresql.svg",
+    "expanded": "./aws-icons/aurora-postgresql.svg"
+  },
+  "cloudwatch": {
+    "collapsed": "./aws-icons/cloudwatch.svg",
+    "expanded": "./aws-icons/cloudwatch.svg"
+  },
+  "cognito": {
+    "collapsed": "./aws-icons/cognito.svg",
+    "expanded": "./aws-icons/cognito.svg"
+  },
+  "compute": {
+    "collapsed": "./icons/folder-server.svg",
+    "expanded": "./icons/folder-server-open.svg"
+  },
+  "ec2": {
+    "collapsed": "./aws-icons/ec2.svg",
+    "expanded": "./aws-icons/ec2.svg"
+  },
+  "ecr": {
+    "collapsed": "./aws-icons/ecr.svg",
+    "expanded": "./aws-icons/ecr.svg"
+  },
+  "eks": {
+    "collapsed": "./aws-icons/eks.svg",
+    "expanded": "./aws-icons/eks.svg"
+  },
+  "elasticache": {
+    "collapsed": "./aws-icons/elasticache.svg",
+    "expanded": "./aws-icons/elasticache.svg"
+  },
+  "lambda": {
+    "collapsed": "./aws-icons/lambda.svg",
+    "expanded": "./aws-icons/lambda.svg"
+  },
+  "networking": {
+    "collapsed": "./icons/folder-connection.svg",
+    "expanded": "./icons/folder-connection-open.svg"
+  },
+  "observability": {
+    "collapsed": "./icons/folder-log.svg",
+    "expanded": "./icons/folder-log-open.svg"
+  },
+  "prod": {
+    "collapsed": "./icons/folder-server.svg",
+    "expanded": "./icons/folder-server-open.svg"
+  },
+  "route53": {
+    "collapsed": "./aws-icons/route53.svg",
+    "expanded": "./aws-icons/route53.svg"
+  },
+  "s3": {
+    "collapsed": "./aws-icons/s3.svg",
+    "expanded": "./aws-icons/s3.svg"
+  },
+  "sqs": {
+    "collapsed": "./aws-icons/sqs.svg",
+    "expanded": "./aws-icons/sqs.svg"
+  },
+  "staging": {
+    "collapsed": "./icons/folder-test.svg",
+    "expanded": "./icons/folder-test-open.svg"
+  },
+  "storage": {
+    "collapsed": "./icons/folder-archive.svg",
+    "expanded": "./icons/folder-archive-open.svg"
+  },
+  "vpc": {
+    "collapsed": "./aws-icons/vpc.svg",
+    "expanded": "./aws-icons/vpc.svg"
+  },
+  "workflows": {
+    "collapsed": "./icons/folder-ci.svg",
+    "expanded": "./icons/folder-ci-open.svg"
+  }
+}
