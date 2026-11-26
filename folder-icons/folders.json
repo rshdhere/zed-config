@@ -7,6 +7,10 @@
     "collapsed": "./aws-icons/alb.svg",
     "expanded": "./aws-icons/alb.svg"
   },
+  "argocd": {
+    "collapsed": "./tool-icons/argocd.svg",
+    "expanded": "./tool-icons/argocd.svg"
+  },
   "aurora-postgresql": {
     "collapsed": "./aws-icons/aurora-postgresql.svg",
     "expanded": "./aws-icons/aurora-postgresql.svg"
